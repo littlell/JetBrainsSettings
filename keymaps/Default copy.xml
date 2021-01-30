@@ -1,0 +1,25 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
+  </action>
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="ctrl f6" />
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
+  <action id="DBNavigator.Actions.ExplainPlan" />
+  <action id="EditorCompleteStatement" />
+  <action id="EditorMatchBrace" />
+  <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
+  </action>
+  <action id="FullyExpandTreeNode">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
+  <action id="ReplaceInPath" />
+</keymap>

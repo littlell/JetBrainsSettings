@@ -1,0 +1,51 @@
+<application>
+  <component name="MavenRunHelper">
+    <option name="goals">
+      <Goals>
+        <option name="goals">
+          <list>
+            <Goal>
+              <option name="commandLine" value="clean" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="validate" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="compile" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="test" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="package" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="verify" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="install" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="deploy" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="site" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean compile" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -DskipTests jetty:run" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -Dspring-boot.run.fork=false -DskipTests -Dspring-boot.run.profiles=dev spring-boot:run" />
+            </Goal>
+          </list>
+        </option>
+      </Goals>
+    </option>
+  </component>
+</application>
