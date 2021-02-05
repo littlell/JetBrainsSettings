@@ -5,8 +5,8 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="pod-preset" type="PLAIN_TEXT" />
-      <mapping pattern="发票相关接口" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile-hwk8stest" type="PLAIN_TEXT" />
+      <mapping pattern="发票相关接口" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile-k8sprod" type="PLAIN_TEXT" />
       <mapping ext="toml" type="PLAIN_TEXT" />
       <mapping ext="tpl" type="PLAIN_TEXT" />
